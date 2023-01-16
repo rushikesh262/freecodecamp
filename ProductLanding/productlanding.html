@@ -1,0 +1,483 @@
+<script src="https://cdn.freecodecamp.org/testable-product-fcc/v1/bundle.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+	integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+	crossorigin="anonymous"></script>
+
+	<header id="header">
+		<img id="header-img" src="pngegg.png" width="35px">
+	
+		<input type="checkbox" id="responsive-menu">
+		<label for="responsive-menu" class="responsive-menu">
+			<i class="fa fa-bars"></i>
+		</label>
+		<nav class="menu" id="nav-bar">
+			<ul class="menu-list">
+				<li><a class="nav-link" href="#about">about</a></li>
+				<li><a class="nav-link" href="#products">Products</a></li>
+				<li><a class="nav-link" href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+<!-- <header id="header">
+	<img id="header-img" src="pngegg.png" width="35px">
+
+	<input type="checkbox" id="responsive-menu">
+	<label for="responsive-menu" class="responsive-menu">
+		<i class="fa fa-bars"></i>
+	</label>
+	<nav class="menu" id="nav-bar">
+		<ul class="menu-list">
+			<li><a class="nav-link" href="#about">about</a></li>
+			<li><a class="nav-link" href="#products">Products</a></li>
+			<li><a class="nav-link" href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+</header> -->
+
+<main>
+	<section id='section-video'>
+		<h2>
+			<a href="#">
+				<i class="fas fa-tree" id="header-img"></i>
+				THE PLANT SHOP
+				<i class="fas fa-tree" id="header-img"></i>
+
+			</a>
+		</h2>
+		<video id='video' width="800" autoplay muted loop>
+			<source src="mixkit-hanging-flowering-plants-in-a-large-nursery-43696-medium.mp4" type="video/mp4">
+		</video>
+
+		<figcaption id='img-caption'>
+			<a rel="nofollow" href="http://videezy.com/" target="_blank"><h1>plant shop website!</h1></a>
+		</figcaption>
+		</br>
+		<p>
+			<h3>The best modern plants for your home!</h3>
+		</p>
+		<p><h5>have a look:</h5>
+		<ul>
+			<li>Keep your plants looking happy and healthy with our curated selection of plants for all styles and sizes
+				of homes.</li>
+			<li>We offer more than just houseplants- we carry outdoor plants, too!</li>
+			<li>looking for a present for the gardener in your life? We have just the thing! </li>
+			<li>Our online store has something for everyone: from house plants to succulents, herbs to cactus and</li>
+			<li>more.</li>
+		</ul>
+		</p>
+	</section>
+
+	<section id="about">
+		<h2>
+			<a href="#">
+				<i class="fas fa-tree" id="header-img"></i>
+				<h1>Beautiful plants from our family to yours</h1>
+				<i class="fas fa-tree" id="header-img"></i>
+			</a>
+		</h2>
+		<p><h2>We are a plant store that specializes in interior plants.</h2>We bring you the best of the best to make your
+			living space more alive and beautiful.
+		</p>
+	</section>
+
+	<style>
+	</style>
+	<section class="product" id="products">
+		<h2 class="product-title">Our Products</h2>
+		<div class="product-container">
+			<div class="project-container project-card">
+				<img src="https://m.media-amazon.com/images/I/71t8c3znqnL._SX466_.jpg" alt="indoor plant" loading="lazy"
+					class="project-pic" />
+				<h3 class="project-title">Indoor plants</h3>
+				<p class="project-details">
+					Indoor Plants are the lowlight plants that can thrive when kept at indoor locations .
+				</p>
+				<a href="#" target="_blank" class="project-link">Check it Out</a>
+			</div>
+			<div class="project-container project-card">
+				<img src="https://m.media-amazon.com/images/I/41TtiW65ZeL.jpg" alt="outdoor plant" loading="lazy"
+					class="project-pic" />
+				<h3 class="project-title">Outdoor plants</h3>
+				<p class="project-details">
+					Beautiful and Unique Collections of Decorative Garden Products.
+				</p>
+				<a href="#" target="_blank" class="project-link">Check it Out</a>
+			</div>
+			<div class="project-container project-card">
+				<img src="https://m.media-amazon.com/images/I/41COXy1i0NL._SX466_.jpg" alt="gardening tools"
+					loading="lazy" class="project-pic" />
+				<h3 class="project-title">Gardening tools</h3>
+				<p class="project-details">
+					A.Some of the common gardening tools
+				</p>
+				<a href="#" target="_blank" class="project-link">Check it Out</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<p>
+			Contact Form, We will contact you
+		</p>
+		<form id="form" action="https://www.freecodecamp.com/email-submit">
+			<fieldset>
+				<label for="email">Email:
+					<input name="email" id="email" type="email" placeholder="Enter your e-mail" required />
+				</label>
+			</fieldset>
+			<fieldset>
+				<input id="submit" type="submit" value="submit" class="btn" />
+			</fieldset>
+		</form>
+	</section>
+</main>
+<footer>
+	<div class="about">
+	</div>
+	<p>This is the project <strong>Product Landing Page</strong> in the <a
+			href="https://www.freecodecamp.org/learn/responsive-web-design" target='_blank'>Responsive Web Design
+			Course</a> from <a href="https://www.freecodecamp.org/" target='_blank'>freecodecamp.org</a></p>
+	<br>
+	<small>&copy; Copyright <span id="year"></span>, 2021</small>
+</footer>
+<style>
+	:root {
+		--black: #203c18;
+		--letters: #0f190b;
+		--page-green: white;
+		--menu-green:
+			linear-gradient(to top,
+				#6eff55,
+				#b0ffa0);
+	}
+
+	body {
+		background-image: var(--page-green);
+		color: var(--letters);
+		font-family: "Open Sans", sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+	#header {
+	position: sticky;
+	top: -1px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 1%;
+	background-image: var(--menu-green);
+	border-bottom: 2px solid #92bc8b;
+}
+
+/* Logo */
+.logo {
+	margin: 5px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+section h2 {
+	font-family: "Courgette", cursive;
+}
+
+#responsive-menu,
+.responsive-menu {
+	display: none;
+	margin: 0;
+	float: right;
+	padding: 10px;
+	text-align: center;
+	margin: 5px;
+}
+.responsive-menu:hover {
+	color: #be2590;
+}
+
+/* Menu */
+.menu {
+	display: flex;
+	font-weight: bold;
+}
+
+.menu-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.nav-link {
+	color: var(--black);
+	display: inline-block;
+	letter-spacing: 2px;
+	margin: 0 2%;
+	padding: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+	#header {
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.menu {
+		display: none;
+		font-size: 1.2em;
+	}
+	#responsive-menu:checked ~ .menu {
+		display: flex;
+		flex-direction: column;
+		margin-top: 10px;
+	}
+
+	.responsive-menu {
+		display: block;
+		font-size: 2em;
+		color: var(--black);
+	}
+	.menu-list {
+		display: block;
+	}
+	.menu-list li {
+		text-align: center;
+	}
+}
+
+	/** Fim - Header **/
+
+	a {
+		color: var(--black);
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #be2590;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	/** Início - footer **/
+	footer {
+		text-align: center;
+		font-size: 16px;
+		margin: 2%;
+	}
+
+	footer a {
+		text-decoration: none;
+		font-weight: bold;
+		color: var(--black);
+	}
+
+	footer a:hover {
+		color: #be2590;
+	}
+
+	footer .icon {
+		margin: 0.3em;
+		font-size: 2em;
+	}
+
+	footer img {
+		max-width: 30%;
+	}
+
+	@media (max-width: 700px) {
+		footer img {
+			max-width: 70%;
+		}
+	}
+
+
+	.product {
+			background-color: var(--bg-color);
+			padding: 32px 0;
+			margin-top: 2rem;
+		}
+
+		.project-pic {
+			width: 65%;
+			height: 60%;
+		}
+
+		.product-container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.product-title {
+			text-align: center;
+			margin-bottom: 1rem;
+		}
+
+		.project-container {
+			text-align: center;
+			width: 21.875rem;
+			padding: 1rem;
+		}
+
+		.project-container p {
+			padding: 0.4rem;
+		}
+
+		.project-title {
+			margin-bottom: var(--bottom-margin);
+		}
+
+		.project-details {
+			margin-bottom: var(--bottom-margin);
+		}
+
+	#about,
+	#products,
+	#contact,
+	#section-video {
+		margin: 50px;
+		text-align: center;
+	}
+
+	#about h2,
+	#products h2,
+	#contact h2 {
+		text-align: center;
+		color: var(--black);
+	}
+
+	/** Products **/
+
+	#products .container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		text-align: center;
+		padding: 15px;
+	}
+
+	#products .container .each-product i {
+		font-size: 4em;
+		margin: 10px;
+		color: var(--black);
+	}
+
+	@media (max-width: 700px) {
+		#products .container {
+			display: inline;
+			width: 100%;
+			margin: 0;
+		}
+	}
+
+	/** Contact **/
+
+	#contact fieldset {
+		border: none;
+	}
+
+	#contact {
+		background-color: rgba(40, 83, 99, 0.13);
+		border-radius: 20px;
+		padding: 1em;
+	}
+
+	#contact label {
+		letter-spacing: 1.5px;
+		font-size: 1.1em;
+	}
+
+	#contact input,
+	#contact select {
+		margin-top: 1.5%;
+		padding: 0 0 10px 0;
+		background: transparent;
+		font-size: 1.1em;
+		text-align: center;
+	}
+
+	#contact input {
+		border: none;
+		border-bottom: 2px solid #000000 !important;
+	}
+
+	#contact #submit {
+		width: 40%;
+		margin: 3% 0 0 0;
+		padding: 10px;
+		height: 2.5em;
+		text-transform: uppercase;
+		border-radius: 20px;
+		font-weight: bolder;
+		color: white;
+		background-color: #92bc8b;
+	}
+
+	#contact #submit:hover {
+		background-color: #22ff00;
+		color: #fff;
+	}
+
+	#contact #form label #email {
+		width: 800px;
+	}
+
+	@media (max-width: 1000px) {
+		#contact #form label #email {
+			width: 600px;
+		}
+	}
+
+	@media (max-width: 900px) {
+		#section-video #video {
+			width: 600px;
+		}
+
+		#contact #form label #email {
+			width: 550px;
+		}
+	}
+
+	@media (max-width: 700px) {
+		#section-video #video {
+			width: 500px;
+		}
+
+		#contact #form label #email {
+			width: 450px;
+		}
+	}
+
+	@media (max-width: 600px) {
+		#section-video #video {
+			width: 350px;
+		}
+
+		#contact #form label #email {
+			width: 300px;
+		}
+	}
+
+	@media (max-width: 450px) {
+		#section-video #video {
+			width: 200px;
+		}
+
+		#contact #form label #email {
+			width: 150px;
+		}
+	}
+
+	@media (max-width: 300px) {
+		#contact #form label #email {
+			width: 50px;
+		}
+	}
+</style>

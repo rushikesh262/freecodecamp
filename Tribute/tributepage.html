@@ -1,0 +1,160 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<center>
+    <main id="main">
+        <h1 id="title">Shivkar Bāpuji Talpade</h1>
+        <p>(1864 – 1916)</p>
+        <div id="img-div">
+            <figure>
+                <img src="https://qph.cf2.quoracdn.net/main-qimg-06c928abd36d101dfc11abd805397936-lq"
+                    alt="" id="image" width="170" height="170">
+                <figcaption id="img-caption"><q><b>Shivkar Bāpuji Talpade</b>, was an Indian instructor in the Sir JJ
+                        School of Art with an interest in Sanskrit and in aviation. He lived in Mumbai, and is claimed
+                        to have constructed and flown an unmanned, heavier-than-air aircraft in 1895.</q>
+                </figcaption>
+            </figure>
+        </div>
+
+        <section id="tribute-info">
+            <details>
+                <summary>Was an Indian the first to fly?</summary>
+                <p>
+                    Move over Wright brothers -- it was Shivkar Bapuji Talpade who first flew a flying machine over
+                    Chowpatty in 1895, eight years before the American siblings, according to the abstract of a paper to
+                    be presented at the 102nd Indian Science Congress in Mumbai on January 4.
+                </p>
+            </details>
+
+            <details>
+                <summary>Did Shivkar bapuji Talpade invented the airplane?</summary>
+                <p>
+                    Talpade is reputed to have constructed an unmanned, heavier-than-air aircraft, named Marutsakhā, and
+                    flown it above Bombay's Chowpatty Beach in 1895. Contemporary accounts of a successful flight do not
+                    exist, and no reliable historical records document its existence.
+                </p>
+            </details>
+            <h3>
+                Read more about "Shivkar Bapuji Talpade on "
+                <a id="tribute-link" href="https://en.wikipedia.org/wiki/Shivkar_Bapuji_Talpade" target="_blank">Wikipedia</a>.
+            </h3>
+        </section>
+    </main>
+</center>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+
+    }
+
+    body {
+        font-size: 16px;
+        background-color: whitesmoke;
+        color: #111;
+    }
+
+    #main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+        padding-right: 17px;
+        box-sizing: content-box;
+        margin-top: 50px;
+    }
+
+    p {
+        margin-bottom: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    details {
+        width: 100%;
+        font-family: sans-serif;
+        border: 2px solid rgb(105, 241, 105);
+        padding: 5px;
+        background-color: #111;
+        color: #fff;
+
+    }
+
+    details p {
+        padding: 20px;
+        color: #000;
+        background: #fff;
+    }
+
+    summary {
+        padding: 20px;
+        border: 1px solid #9fb6ce;
+        outline: none;
+        cursor: pointer;
+        display: flex;
+    }
+
+    section {
+        max-width: 80%;
+        width: 100%;
+    }
+
+    a {
+        color: rgb(47, 161, 236);
+        text-decoration: none;
+    }
+
+    h3 {
+        margin: 10px;
+    }
+
+    #image {
+        width: 100%;
+        height: auto;
+        max-width: 175px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: 5px solid rgb(248, 227, 188);
+        border-radius: 50%;
+        /* box-shadow: 0px 0px 15px 10px #272525; */
+    }
+
+    figcaption {
+        margin: 20px;
+        font-size: 20px;
+        width: 55%;
+    }
+
+    #title {
+        color: orange;
+    }
+
+    b {
+        background: -webkit-linear-gradient(silver, gold);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #tribute-info {
+        width: 50%;
+    }
+
+    @media screen and (max-width: 600px) {
+        figcaption {
+            width: 80%;
+            font-size: 15px;
+        }
+
+        #tribute-info {
+            width: 100%;
+        }
+
+        #main {
+            margin-top: 0;
+        }
+    }
+</style>
